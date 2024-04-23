@@ -1,1 +1,32 @@
-# empty
+- key: name
+  value: OSRP
+
+- key: description
+  value: Outer Science Research Project
+
+- key: maintainer
+  value: Kerria
+  url: https://www.ews.ink
+
+- key: tags
+  value:
+    - '#science'
+    - '#research'
+    - '#astronomy'
+    - '#astrophysics'
+
+- key: subproject
+  value:
+    - value: 'navigation'
+      url: https://nav.osrp.run
+    - value: 'memos'
+      url: https://todo.osrp.run
+
+- key: Contact
+  value:
+    - key: Email
+      value: po@ews.ink
+      url: "mailto:po@ews.ink"
+    - key: Discord
+      value: unacro
+      url: "https://nav.osrp.run/s/discord"
