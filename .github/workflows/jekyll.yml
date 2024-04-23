@@ -62,3 +62,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Display page URL
+        run: echo "Page is published at ${{ steps.deployment.outputs.page_url }}"
